@@ -1,0 +1,99 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: #EEF5FF;
+    font-family: 'Libre Baskerville', serif;
+    font-family: 'Poppins', sans-serif;
+  }
+
+h1 {
+	position: absolute;
+	top: 50px;
+	font-size: 3rem;
+}
+
+.container {
+  display: grid;
+  gap: 9px;
+  width: 748px;
+  height: 748px;
+  background-color: #000;
+  grid-template-columns: 320px 198px 153px 50px;
+  grid-template-rows: 414px 130px 155px 22px;
+  border: 15px solid #7C93C3;
+  border-radius: 10px;
+}
+
+.box{
+  background-color: #F0F1EC;
+}
+
+.red {
+  background-color: #E72F24;
+}
+
+.red:hover {
+	opacity: 90%;
+}
+
+.white1 {
+  grid-column: span 3;
+}
+
+.white1:hover {
+	opacity: 90%;
+}
+
+.white2 {
+  grid-row: span 2;
+}
+
+.white2:hover {
+	opacity: 90%;
+}
+
+.white3 {
+  grid-column: span 2;
+  grid-row: span 2; 
+}
+
+.white3:hover {
+	opacity: 90%;
+}
+
+.blue {
+  background-color: #004592;
+  border-bottom: 10px solid #000;
+}
+
+.blue:hover {
+	opacity: 90%;
+}
+
+.white4 {
+  grid-row: span 2;
+}
+
+.white4:hover {
+	opacity: 90%;
+}
+
+.black {
+  background-color: #232629;
+}
+
+.black:hover {
+	opacity: 90%;
+}
+
+.yellow {
+  background-color: #F9D01E;
+}
+
+.yellow:hover {
+	opacity: 90%;
+}
